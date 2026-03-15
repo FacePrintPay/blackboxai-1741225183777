@@ -5,9 +5,15 @@ on:
   workflow_dispatch:
 jobs:
   build-and-deploy:
+    timeout-minutes: 30
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Cache node modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
       - name: Setup Node
         if: hashFiles('package.json') != ''
         uses: actions/setup-node@v4
