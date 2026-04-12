@@ -1,3 +1,7 @@
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 name: C25 CI - c25-agent-core
 on:
   push:
