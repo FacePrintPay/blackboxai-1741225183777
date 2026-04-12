@@ -1,18 +1,17 @@
-#  c25-agent-core
-### Sovereign Digital Payment Gateway & Crypto Transaction Processor
+# ⚡ c25-agent-core
+### Advanced Biometric Authentication Engine
 
 > **Version:** 1.0.0 | **License:** MIT | **Status:** Operational
 
-##  Overview
-**c25-agent-core** is a critical component of the Constellation25 ecosystem, engineered by CyGeL White. This build provides **Sovereign Digital Payment Gateway & Crypto Transaction Processor** capabilities designed for sovereignty, security, and scalability.
+## 🚀 Overview
+**c25-agent-core** is a critical component of the **Constellation25 Ecosystem**, engineered by CyGeL White. This build provides **Advanced Biometric Authentication Engine** capabilities designed for sovereignty, security, and scalability.
 
 ## 🛠️ Technology Stack
-- **Core:** Node.js, Blockchain APIs, Secure Ledger
+- **Core:** Python/AI, OpenCV
 - **Architecture:** Microservices / Serverless Ready
 - **Security:** End-to-End Encryption, Biometric Auth Ready
 
 ## ✨ Key Features
-- Multi-currency support\n- Instant settlement\n- Zero-knowledge proof security
 - ✅ **Sovereign Deployment:** Runs entirely on local infrastructure (Termux/Edge).
 - 🔒 **Privacy First:** No external data leakage; all processing happens on-device.
 -  **High Performance:** Optimized for low-latency execution.
@@ -31,10 +30,6 @@ if [ -f "server.js" ]; then node server.js; fi
 if [ -f "app.py" ]; then python app.py; fi
 ```
 
-## 📄 Usage
-Once running, access the interface at `http://localhost:3000` (or configured port).
-Refer to the `/docs` folder for detailed API specifications.
-
 ## 🤝 Contributing
 Contributions to the Constellation25 ecosystem are welcome. Please ensure all code adheres to our sovereignty standards.
 
@@ -43,7 +38,7 @@ Support the development of sovereign infrastructure:
 - **BTC:** [Insert Address]
 - **ETH:** [Insert Address]
 
-## ⚖️ License
+## ️ License
 MIT License - See LICENSE file.
 
 ---
